@@ -19,4 +19,4 @@ PureEssence es una tienda en línea para comprar ropa y accesorios. Esta aplicac
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone https://github.com/Juancho5023/ProyectoPureEssence
