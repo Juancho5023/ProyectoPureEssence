@@ -1,0 +1,62 @@
+.register {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #ff7f50; /* Naranja */
+    border-radius: 10px;
+    background-color: #fff; /* Blanco */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.register h2 {
+    font-family: 'Playfair Display', serif;
+    color: #ff7f50; /* Naranja */
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Gris oscuro */
+    font-family: 'Exo 2', sans-serif;
+}
+
+.form-group input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: 'Exo 2', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e67346;
+}
+
+body {
+    background-image: url('/background-image.jpg'); /* Fondo acorde a la marca */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Exo 2', sans-serif;
+    color: #333; /* Gris oscuro */
+}

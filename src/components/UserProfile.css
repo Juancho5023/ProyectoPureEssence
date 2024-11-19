@@ -1,0 +1,64 @@
+.user-profile {
+    position: relative;
+    display: inline-block;
+}
+
+.profile-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.profile-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff; /* Añadir borde blanco para mejor visibilidad */
+}
+
+.profile-initial {
+    width: 40px;
+    height: 40px;
+    background-color: #ff7f50;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.profile-dropdown {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    background-color: #333; /* Fondo oscuro */
+    color: white; /* Texto claro */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 1000;
+    text-align: center;
+}
+
+.profile-dropdown p {
+    margin: 0;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.sign-out-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.sign-out-button:hover {
+    background-color: #cc0000;
+}
